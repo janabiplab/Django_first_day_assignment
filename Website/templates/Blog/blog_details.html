@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog_Details</title>
+    <style>
+        p{
+            font-size: 30px;
+            
+        }
+        h1{
+            text-align: center;
+            box-shadow: rgba(5, 226, 79, 0.07) 0px 1px 2px, rgba(223, 16, 16, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .container>div{
+            box-shadow: rgba(11, 194, 11, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>This is the Details Page</h1>
+    <div class="container">
+    <div>
+    <p> Subject : {{blog.Subject}}</p>
+    <p> Author : {{blog.Author}}</p>
+    <p> About the Book : {{blog.Description}}</p>
+    </div>
+    </div>
+</body>
+</html>
